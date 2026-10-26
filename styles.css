@@ -1,0 +1,61 @@
+.div1 {
+    position: relative;
+    height: 200px;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 30px auto 10px;
+
+  }
+
+  h1 {
+    position: absolute;
+    right: 20px;
+    bottom: 80px;
+    font-family: monospace;
+  }
+
+  .main {
+    display: flex;
+    margin-top: 0px;
+    gap: 0;
+  }
+
+  .div2 {
+    height: 140px;
+    border: 2px solid rgba(0, 0, 0, 0.514);
+    width: 180px;
+    border-radius: 10px;
+    padding: 10px;
+  }
+
+  .div2 ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  .div2 li {
+    margin: 8px 0;
+  }
+
+  .div3 {
+    border: 2px solid rgba(0, 0, 0, 0.514);
+    border-radius: 10px;
+    padding: 20px;
+    margin-left: 10px;
+    flex-grow: 1;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+
+  th, td {
+    border: 1px solid #000;
+    padding: 8px;
+    text-align: left;
+  } 
+ 
